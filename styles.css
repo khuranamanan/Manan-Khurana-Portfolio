@@ -64,6 +64,10 @@ hr{
     padding: 0 0.5rem;
 }
 
+ul{
+    padding-inline-start: 0;
+}
+
 /* Naigation */
 .navigation {
     background: var(--gradient);
@@ -146,10 +150,6 @@ hr{
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--off-white);
-}
-
-.footer ul{
-    padding-inline-start: 0;
 }
 
 .footer .link-social {
