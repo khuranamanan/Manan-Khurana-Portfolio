@@ -27,12 +27,11 @@ hr{
 .container-center{
     max-width: 800px;
     margin: auto;
-    text-align: center;
 }
 
 /* links */
 .links{
-    padding: 1rem;
+    padding: .75rem;
     text-decoration: none;
 }
 
@@ -40,6 +39,9 @@ hr{
     background-color: var(--secondary-color);
     color: white;
     border-radius: 0.5rem;
+    display: block;
+    margin: 1rem auto;
+    width: fit-content;
 }
 
 .links-secondary{
@@ -47,6 +49,9 @@ hr{
     border-radius: 00.5rem;
     border-width: 1px;
     color: var(--secondary-color);
+    display: block;
+    margin: 1rem auto;
+    width: fit-content;
 }
 
 /* Lists */
@@ -103,8 +108,9 @@ hr{
 }
 
 .hero .hero-heading {
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--dark-gray);
+    text-align: center;
 }
 
 .hero .hero-heading .inverted-colors {
@@ -117,8 +123,9 @@ hr{
 /* Section */
 .section {
     padding: 2rem;
+    text-align: center;
 }
-.section h1{
+.section h3{
     text-align: center;
 }
 .section-off-white{
@@ -131,10 +138,12 @@ hr{
     padding: 2rem;
     background: var(--gradient);
     border-radius: 1rem 1rem 0 0;
+    text-align: center;
 }
 
 .footer .footer-heading {
     font-size: 1.5rem;
+    font-weight: bold;
     color: var(--off-white);
 }
 
