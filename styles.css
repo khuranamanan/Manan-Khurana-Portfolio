@@ -130,6 +130,7 @@ hr{
 }
 .section-off-white{
     background-color: var(--off-white);
+    border-radius: 1rem;
 }
 
 
