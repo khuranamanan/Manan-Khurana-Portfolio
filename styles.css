@@ -156,6 +156,15 @@ ul{
     color: white;
 }
 
+.footer .footer-img {
+    width: 2rem;
+    height: auto;
+}
+
+.footer-img:hover{
+    transform: scale(1.5);
+}
+
 /* blog */
 
 .blog {
